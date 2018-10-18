@@ -1,0 +1,46 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		// "noEmitHelpers": true,    
+		"baseUrl": "./",
+		"noUnusedLocals": true,
+		"noUnusedParameters": false,
+		"watch": true,
+		"lib": [
+			"es6",
+			// "es5",
+			// "es2016",
+			"dom"
+		],
+		"paths": {
+			"@angular/*": [
+				"./node_modules/@angular/*"
+			]
+		},
+		"typeRoots": [
+			"./node_modules/@types",
+			"./typings"
+		],
+		"types": [
+			"core-js",
+			"node"
+		]
+	},
+	"compileOnSave": true,
+	"buildOnSave": true,
+	"awesomeTypescriptLoaderOptions": {
+		"forkChecker": true,
+		"useWebpackText": true
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
+}

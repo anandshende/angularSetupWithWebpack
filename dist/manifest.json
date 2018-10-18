@@ -1,0 +1,9 @@
+{
+  "polyfills.js": "polyfills.604af12905d30693a91d.js",
+  "mainApp.js": "mainApp.604af12905d30693a91d.js",
+  "vendor.js": "vendor.604af12905d30693a91d.js",
+  "index.html": "index.html",
+  "assets/index.css": "assets/index.css",
+  "assets/sample.json": "assets/sample.json",
+  "assets/vendor/vendor1.js": "assets/vendor/vendor1.js"
+}
